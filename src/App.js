@@ -5,6 +5,10 @@ import Project from "./components/project/Project";
 import Service from "./components/service/Service";
 import Client from "./components/client/Client";
 import Faq from "./components/faq/Faq";
+import Inquiry from "./components/inquiry/Inquiry";
+import Blog from "./components/blog/Blog";
+import Footer from "./components/footer/Footer";
+
 
 function App() {
   return (
@@ -16,6 +20,9 @@ function App() {
       <Service />
       <Client />
       <Faq />
+      <Inquiry />
+      <Blog />
+      <Footer />
     </>
   );
 }
