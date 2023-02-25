@@ -3,6 +3,9 @@ import Banner from "./components/banner/Banner";
 import Work from "./components/work/Work";
 import Project from "./components/project/Project";
 import Service from "./components/service/Service";
+import Client from "./components/client/Client";
+import Faq from "./components/faq/Faq";
+
 function App() {
   return (
     <>
@@ -10,7 +13,9 @@ function App() {
       <Banner />
       <Work />
       <Project />
-      <Service/>
+      <Service />
+      <Client />
+      <Faq />
     </>
   );
 }
